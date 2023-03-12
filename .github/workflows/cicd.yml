@@ -21,5 +21,5 @@ jobs:
          level: warning
      - run: mvn -B package --file pom.xml
      - uses:
-         with:
-           path: target/*.jar
+       with:
+         path: target/*.jar
