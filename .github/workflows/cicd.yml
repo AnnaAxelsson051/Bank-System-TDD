@@ -3,7 +3,7 @@ name: CI/CD
 on:
   push:
     branches: [ main ]
-    pull_request:
+  pull_request:
       branches: [ main ]
 jobs:
   build_and_package:
@@ -20,6 +20,6 @@ jobs:
          reporter: github-pr-review
          level: warning
      - run: mvn -B package --file pom.xml
-     - uses:
+     - uses: actions/upload-artifact@v3.1.2
        with:
          path: target/*.jar
