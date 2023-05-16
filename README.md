@@ -6,12 +6,12 @@ A bank system created with Maven. Allows user to view balance, make withdrawals,
 
 ## Technologies used
 
-> - Mockito
-> - Maven plugins
-> - Github workflow
-> - Yaml
-> - Docker
-> - Precommit
-> - Branches
+- Mockito
+- Maven plugins
+- Github workflow
+- Yaml
+- Docker
+- Precommit
+- Branches
 
 
